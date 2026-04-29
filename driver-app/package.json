@@ -1,0 +1,24 @@
+{
+  "name": "driver-app",
+  "version": "1.20.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite build && vite preview",
+    "dev:hot": "vite --host 0.0.0.0 --port 3593",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vant/use": "^1.6.0",
+    "axios": "^1.6.0",
+    "dayjs": "^1.11.0",
+    "pinia": "^2.1.0",
+    "vant": "^4.8.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^5.4.21"
+  }
+}
